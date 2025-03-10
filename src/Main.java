@@ -31,6 +31,7 @@ public class Main {
             while ((c = ulazniFile.read()) != -1) {
                 izlazniFile.write((char) c);
             }
+            System.out.println("Datoteka uspješno kopirana.");
             izlazniFile.close();
 
             File kopijaFile = new File(kopija);
